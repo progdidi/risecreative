@@ -9,18 +9,14 @@
 }
 
 body {
-    // font-family: 'Montserrat', sans-serif;
     background-color: var(--background-color);
-    font-family: 'Open Sans', sans-serif;
-    font-size: 18px;
-    line-height: 25px;
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+    color: var(--text-color);
 }
 
-.container__fluid{
-    max-width: 1330px;
-    padding: 0 10px;
-    margin: 0 auto;
-}
 
 a{
     text-decoration: none;
@@ -32,7 +28,17 @@ button{
 }
 
 .container {
-    max-width: 1000px;
+    max-width: 1300px;
     padding: 0 10px;
     margin: 0 auto;
+}
+
+.yellow-btn {
+    border-radius: 100px;
+    background-color: var(--yellow-color);
+    font-family: var(--second-family);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    color: var(--dark-color);
 }

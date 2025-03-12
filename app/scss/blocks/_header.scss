@@ -1,6 +1,7 @@
 .header {
     background-color: var(--dark-color);
     min-height: 100vh;
+    padding-bottom: 68px;
     .header-top {
         padding: 27px 0;
         display: flex;
@@ -11,8 +12,22 @@
                 display: flex;
                 align-items: center;
                 gap: 40px;
+                font-family: var(--second-family);
+                font-weight: 500;
+                font-size: 16px;
+                color: var(--gray-color);
             }
             .menu-list__item {
+                border-bottom: 1px solid transparent;
+                transition: all 0.3s;
+                &.active {
+                    color: #fff;
+                    border-bottom: 1px solid #fff;
+                }
+                &:hover {
+                    color: #fff;
+                    border-bottom: 1px solid #fff;
+                }
             }
         }
         
@@ -21,8 +36,53 @@
             align-items: center;
             gap: 16px;
             .header__btn {
+                border: 1px solid #cecece;
+                border-radius: 100px;
+                padding: 13px 32px;
+                background-color: transparent;
+                font-family: var(--second-family);
+                font-weight: 500;
+                font-size: 16px;
+                color: #cecece;
+                text-align: center;
             }
         }
     }   
+
+    .header-promo {
+        margin-bottom: 100px;
+        .header-promo__info {
+            .header-promo__info-title {
+            }
+            .header-promo__info-text {
+            }
+            .header-promo__buttons {
+            }
+            .header-promo__btn {
+            }
+            .header-promo__nums {
+            }
+            .header-promo__nums-item {
+            }
+            .header-promo__nums-main {
+            }
+            .header-promo__nums-descr {
+            }
+        }
+        
+        .header-promo__media {
+        }
+        .header-promo__media-img {
+        }
+    }
+    
+    .brands {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        .brands__item-img {
+        }
+    }
+    
     
 }
