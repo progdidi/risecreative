@@ -7,6 +7,7 @@
         display: flex;
         align-items: center;
         justify-content: space-between;
+        margin-bottom: 44px;
         .menu {
             .menu-list {
                 display: flex;
@@ -51,29 +52,69 @@
 
     .header-promo {
         margin-bottom: 100px;
+        display: flex;
+        gap: 80px;
         .header-promo__info {
-            .header-promo__info-title {
+            width: 534px;
+            padding-top: 55px;
+            &-title {
+                font-family: var(--second-family);
+                font-weight: 700;
+                font-size: 60px;
+                line-height: 110%;
+                letter-spacing: 0.01em;
+                color: var(--white-color);
+                margin-bottom: 24px;
             }
-            .header-promo__info-text {
+            &-text {
+                font-family: var(--second-family);
+                font-weight: 500;
+                font-size: 20px;
+                line-height: 160%;
+                letter-spacing: -0.01em;
+                color: var(--white-color);
+                margin-bottom: 40px;
             }
             .header-promo__buttons {
+                display: flex;
+                gap: 23px;
+                align-items: center;
+                margin-bottom: 75px;
+                .header-promo__btn {
+                    padding: 18px 30px;
+                }
             }
-            .header-promo__btn {
-            }
+            
             .header-promo__nums {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                .header-promo__nums-item {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                    text-align: center;
+                    .header-promo__nums-main {
+                        font-family: var(--second-family);
+                        font-weight: 600;
+                        font-size: 44px;
+                        line-height: 127%;
+                        color: var(--yellow-color);
+                        margin-bottom: 10px;
+                    }
+                    .header-promo__nums-descr {
+                        font-family: var(--second-family);
+                        font-weight: 500;
+                        font-size: 16px;
+                        line-height: 175%;
+                    }
+                }
+                
             }
-            .header-promo__nums-item {
-            }
-            .header-promo__nums-main {
-            }
-            .header-promo__nums-descr {
-            }
+            
         }
         
-        .header-promo__media {
-        }
-        .header-promo__media-img {
-        }
     }
     
     .brands {

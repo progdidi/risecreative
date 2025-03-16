@@ -1,0 +1,31 @@
+.about {
+}
+.about-div {
+    display: flex;
+    gap: 30px;
+    &:nth-child(even) {
+        flex-direction: row-reverse;
+    }
+}
+.about-div__media {
+}
+.about-div__media-img {
+}
+.about-div__info {
+}
+.about-div__info-subtitle {
+}
+.about-div__info-title {
+}
+.about-div__info-text {
+}
+.about-div__info-button {
+}
+.about-item {
+}
+.about-item__img {
+}
+.about-item__title {
+}
+.about-item__descr {
+}
