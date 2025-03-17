@@ -1,0 +1,24 @@
+.works {
+    .subtitle {
+    }
+    .section-title {
+        margin-bottom: 58px;
+        width: 508px;
+    }
+    .works__items {
+        display: flex;
+        gap: 30px;
+        overflow: hidden;
+    }
+    .works-item {
+        &__img {
+        }
+        &__title {
+        }
+        &__descr {
+        }
+        &__link {
+        }
+    }
+    
+}
