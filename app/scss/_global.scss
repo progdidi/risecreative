@@ -37,6 +37,24 @@ section {
     margin: 0 auto;
 }
 
+.subtitle {
+    background: rgba(240, 231, 20, 0.2);
+    border-radius: 1000px;
+    padding: 10px 16px;
+    width: fit-content;
+    margin-bottom: 24px;
+    text-transform: uppercase;
+}
+
+.section-title {
+    font-family: var(--second-family);
+    font-weight: 600;
+    font-size: 44px;
+    line-height: 127%;
+    color: #24272e;
+    margin-bottom: 16px;
+}
+
 .yellow-btn {
     border-radius: 100px;
     background-color: var(--yellow-color);
@@ -45,4 +63,12 @@ section {
     font-size: 16px;
     line-height: 150%;
     color: var(--dark-color);
+}
+
+.icon {
+    background-color: #24272e;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

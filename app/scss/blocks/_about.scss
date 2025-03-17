@@ -17,22 +17,8 @@
 }
 .about-div__info {
     width: 628px;
-    &-subtitle {
-        background: rgba(240, 231, 20, 0.2);
-        border-radius: 1000px;
-        padding: 10px 16px;
-        width: fit-content;
-        margin-bottom: 24px;
-        text-transform: uppercase;
-    }
-    &-title {
-        font-family: var(--second-family);
-        font-weight: 600;
-        font-size: 44px;
-        line-height: 127%;
-        color: #24272e;
-        margin-bottom: 16px;
-    }
+    
+    
     &-text {
         margin-bottom: 40px;
     }
@@ -49,11 +35,6 @@
     &__img {
         width: 68px;
         height: 68px;
-        background-color: #24272e;
-        border-radius: 50%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
         padding: 18px;
     }
     &__title {
