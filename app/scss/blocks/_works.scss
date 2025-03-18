@@ -11,13 +11,27 @@
         overflow: hidden;
     }
     .works-item {
+        max-width: 510px;
         &__img {
+            border-radius: 10px;
+            margin-bottom: 40px;
         }
         &__title {
+            font-family: var(--second-family);
+            font-weight: 500;
+            font-size: 34px;
+            line-height: 82%;
+            color: #24272e;
+            margin-bottom: 20px;
         }
         &__descr {
+            margin-bottom: 16px;
         }
         &__link {
+            font-family: var(--second-family);
+            font-weight: 600;
+            font-size: 16px;
+            color: #24272e;
         }
     }
     
