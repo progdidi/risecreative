@@ -9,9 +9,11 @@
         display: flex;
         gap: 30px;
         overflow: hidden;
+        width: 100%;
     }
     .works-item {
         max-width: 510px;
+        min-width: 320px;
         &__img {
             border-radius: 10px;
             margin-bottom: 40px;
@@ -35,4 +37,12 @@
         }
     }
     
+}
+
+@media (max-width: 700px) {
+    .works {
+        .section-title {
+            width: 100%;
+        }
+    }
 }

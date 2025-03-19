@@ -37,8 +37,7 @@
         
         .contacts-form {
             border-radius: 10px;
-            padding: 60px 0;
-            padding-left: 80px;
+            padding: 60px 60px 60px 80px;
             background-color: var(--dark-color);
             color: #fff;
             &__label {
@@ -73,4 +72,41 @@
     }
     
     
+}
+
+@media (max-width: 1150px) {
+    .contacts {
+        &__inner {
+            .contacts-info {
+                width: 100%;
+                padding-right: 60px; 
+            }
+            
+            .contacts-form {
+                padding: 60px;
+                &__label {
+                    width: 100%;
+                }
+            }
+        }
+    }
+   
+}
+
+@media (max-width: 850px) {
+    .contacts {
+        &__inner {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            .contacts-info {
+            }
+            
+            .contacts-form {
+                width: 100%;
+            }
+        }
+    }
+   
 }

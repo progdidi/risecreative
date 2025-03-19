@@ -1,52 +1,65 @@
 .about {
-}
-.about-div {
-    display: flex;
-    gap: 30px;
-    margin-bottom: 140px;
-    &:nth-child(even) {
-        flex-direction: row-reverse;
+    .about-div {
+        display: flex;
+        gap: 30px;
+        margin-bottom: 140px;
+        &:nth-child(even) {
+            flex-direction: row-reverse;
+        }
+        &:last-child {
+            margin-bottom: 0;
+        }
+
+        &__info {
+            width: 628px;
+            
+            &-text {
+                margin-bottom: 40px;
+            }
+            &-button {
+                border-radius: 122px;
+            }
+        }
     }
-    &:last-child {
-        margin-bottom: 0;
-    }
-}
-.about-div__media {
-}
-.about-div__media-img {
-}
-.about-div__info {
-    width: 628px;
     
     
-    &-text {
-        margin-bottom: 40px;
+    .about-item {
+        display: flex;
+        gap: 24px;
+        width: 414px;
+        margin-bottom: 32px;
+        &__img {
+            width: 68px;
+            height: 68px;
+            padding: 18px;
+        }
+        &__title {
+            font-family: var(--second-family);
+            font-weight: 600;
+            font-size: 20px;
+            line-height: 160%;
+            letter-spacing: -0.01em;
+            color: #24272e;
+            margin-bottom: 2px;
+        }
+        &__descr {
+            font-size: 16px;
+        }
     }
-    &-button {
-        border-radius: 122px;
-    }
+    
 }
 
-.about-item {
-    display: flex;
-    gap: 24px;
-    width: 414px;
-    margin-bottom: 32px;
-    &__img {
-        width: 68px;
-        height: 68px;
-        padding: 18px;
-    }
-    &__title {
-        font-family: var(--second-family);
-        font-weight: 600;
-        font-size: 20px;
-        line-height: 160%;
-        letter-spacing: -0.01em;
-        color: #24272e;
-        margin-bottom: 2px;
-    }
-    &__descr {
-        font-size: 16px;
+@media (max-width: 900px) {
+    .about {
+        .about-div {
+            flex-direction: column;
+            &:nth-child(even) {
+                flex-direction: column;
+            }
+
+            &__info {
+                width: 100%;
+            }
+        }
     }
 }
