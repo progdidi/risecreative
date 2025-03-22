@@ -263,6 +263,13 @@
     .header {
         .header-top {
             margin-bottom: 10px;
+            .header__buttons {
+                .header__btn {
+                    &.sign {
+                        display: none;
+                    }
+                }
+            }
         }
         .header-promo {
             gap: 50px;

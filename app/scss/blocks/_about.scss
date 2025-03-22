@@ -61,5 +61,15 @@
                 width: 100%;
             }
         }
+
+        .about-item {
+            width: 100%;
+            gap: 15px;
+            &__img {
+                width: 45px;
+                height: 45px;
+                padding: 10px;
+            }
+        }
     }
 }

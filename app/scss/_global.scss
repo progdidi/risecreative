@@ -72,3 +72,12 @@ section {
     justify-content: center;
     align-items: center;
 }
+
+@media (max-width: 470px) {
+    section {
+        padding: 40px 0;
+    }
+    .section-title {
+        font-size: 28px;
+    }
+}
